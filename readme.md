@@ -1,5 +1,20 @@
-# DUCE
-Drones under ceiling effect
+# educational datasets
+
+This repo contains a series of general datasets for various classes at the University of South Carolina
 
 
-Developed in MATLAB 2020b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
