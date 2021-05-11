@@ -1,33 +1,5 @@
-** Various datasets for classes at the UofSC
+# DUCE
+Drones under ceiling effect
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Developed in MATLAB 2020b
