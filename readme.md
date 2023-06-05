@@ -1,6 +1,5 @@
 # Vibtration data for cantilever beam 
 
-## Data
 
 This repo contains vibration data for a cantilever beam as shown below. A video of the system is also posted at https://www.youtube.com/watch?v=50uMt-VIjR8
 
