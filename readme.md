@@ -1,10 +1,10 @@
 # Vibtration data for cantilever beam 
 
-## [Data](data)
+## Data
 
 This repo contains vibration data for a cantilever beam as shown below. A video of the system is also posted at https://www.youtube.com/watch?v=50uMt-VIjR8
 
-https://github.com/austindowney/Physics-Informed-Machine-Learning-Example/assets/15316737/72b3f17d-7ef8-49c8-93ec-f643a660f785
+https://github.com/austindowney/dataset-free-vibration-of-cantilever-beam/assets/15316737/d8b73d6f-0344-40fb-b1b2-a755b1d5f9b2
 
 The time-frequency response of the beam is shown in the spectrogram of the system below. Not the upward shift in frequency for all three modes after the mass drop.
 
@@ -24,11 +24,6 @@ This work is licensed under a
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 
-## Sources
-1. Barreau Matthieu, Physics-Informed Learning: Using Neural Networks to Solve Differential Equations, Online Lecture, Digital Futures: Research Hub for Digitalization, https://www.youtube.com/watch?v=R4ZvksarJ1Q&t=31s&ab_channel=DigitalFutures%3AResearchHubforDigitalization
-1. Rudd, Keith. Solving partial differential equations using artificial neural networks. Diss. Duke University, 2013. https://www.proquest.com/docview/1477561981?pq-origsite=gscholar&fromopenview=true
-1. Raissi, Maziar, Paris Perdikaris, and George E. Karniadakis. "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations." Journal of Computational physics 378 (2019): 686-707. https://www.sciencedirect.com/science/article/pii/S0021999118307125
-1. Chen, Qiuyi. "Physics Informed Learning for Dynamic Modeling of Beam Structures." (2020). https://repository.lib.ncsu.edu/bitstream/handle/1840.20/37410/etd.pdf?sequence=1
 
 
 
