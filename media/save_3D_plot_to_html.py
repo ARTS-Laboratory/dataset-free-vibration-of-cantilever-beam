@@ -24,7 +24,7 @@ import plotly.graph_objects as go
 plt.close('all')
 
 #%% Load and plot data
-D = np.loadtxt('Vibration_measurement.txt',skiprows=23)
+D = np.loadtxt('../Vibration_measurement.txt',skiprows=23)
 
 tt = D[:,0]
 dd = D[:,1]
@@ -72,12 +72,12 @@ Z_dense = interp(X_dense, Y_dense)
 fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
 Z_dense_log = np.log(Z_dense)
 Z_log = np.log(Z)
-surf = ax.plot_surface(X, Y,  Z_log, cmap=cm.viridis,rcount=200,ccount=200, antialiased=True,alpha=1,edgecolor='none', linewidth=0)#, linewidth=1)
+surf = ax.plot_surface(X, Y,  Z_log, cmap=cm.viridis,rcount=200,ccount=200, antialiased=False,alpha=1,edgecolor='none', linewidth=0)#, linewidth=1)
 ax.set_ylabel('Frequency (Hz)')
 ax.set_xlabel('Time (s)')
 ax.set_zlabel('log$_{10}$[acceleration] (m/s$^2$)')
 plt.title('Beam Spectrogram 3D Log Scape')
-ax.view_init(elev=54, azim=-61, roll=0)
+ax.view_init(elev=54, azim=-61)
 
 # fig.colorbar(surf, shrink=0.5, aspect=15,location = 'left')
 plt.tight_layout()
