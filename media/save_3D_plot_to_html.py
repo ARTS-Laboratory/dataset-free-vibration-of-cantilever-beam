@@ -70,8 +70,8 @@ Z_dense = interp(X_dense, Y_dense)
 
 
 fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
-Z_dense_log = np.log(Z_dense)
-Z_log = np.log(Z)
+Z_dense_log = np.log10(Z_dense)
+Z_log = np.log10(Z)
 surf = ax.plot_surface(X, Y,  Z_log, cmap=cm.viridis,rcount=200,ccount=200, antialiased=False,alpha=1,edgecolor='none', linewidth=0)#, linewidth=1)
 ax.set_ylabel('Frequency (Hz)')
 ax.set_xlabel('Time (s)')

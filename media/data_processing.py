@@ -143,7 +143,7 @@ plt.savefig('Spectrogram_3D',dpi=300)
 
 
 fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
-Z_dense_log = np.log(Z_dense)
+Z_dense_log = np.log10(Z_dense)
 surf = ax.plot_surface(X_dense, Y_dense,  Z_dense_log, cmap=cm.viridis,rcount=200,ccount=200, antialiased=False, alpha=1,edgecolor='none', linewidth=0)#, linewidth=1)
 ax.set_ylabel('Frequency (Hz)')
 ax.set_xlabel('Time (s)')
